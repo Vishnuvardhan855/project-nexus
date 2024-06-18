@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Software Portfolio</title>
+</head>
+<body>
+    <img src="C:\Users\thumb\Downloads\cropped-Nexus_Info_Logo_Black.png" alt="logo">
+    <style>
+        body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    background: url(C:\Users\thumb\Downloads\cropped-Nexus_Info_Logo_Black.png);
+}
+
+header {
+    background: linear-gradient(135deg, green, white);
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+#internships,#home{
+    padding: 20px;
+    background: linear-gradient(green,white);
+}
+
+#about,  #contact {
+    padding: 20px;
+    background: linear-gradient(135deg, green, white);
+}
+
+#photo-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label, 
+#contact-form input, 
+#contact-form textarea {
+    margin-bottom: 10px;
+}
+
+#contact-form button {
+    background-color: black ;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    align-content: space-around
+    ;
+}
+
+#contact-form button:hover {
+    background-color: #feb47b;
+    transition: background-color 0.3s ease;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: white;
+}
+
+    </style>
+    <header>
+        
+        <h1>Nexus Software</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h1>GROW YOUR BUSINESS WITH NEXUS INFO</h1>
+                <h2>Welcome to Nexus Software</h2>
+                <p>Innovative Solutions for Your Business</p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Embark on a journey with Nexus Info, where innovation meets expertise, and discover how we transform ideas into impactful digital solutions for your business.</p>
+            <p>Nexus Info, founded by a young entrepreneur, boasts a dynamic team of enthusiastic individuals, adept at navigating the currents of the latest trends. With a commitment to excellence, we employ optimized techniques to enhance your business through flawlessly crafted websites and innovative ideations. Our mission is to deliver customized websites tailored to your business needs, ensuring a strong online presence within your industry</p>
+        </section>
+        <section id="internships">
+            <h2>Internships</h2>
+            <p>career enrichment program</p>
+            <b><u>INTERNSHIPS</u></b>
+            <h1><b>Internship with Certification</b></h1>
+            <p>Partnering with EduXel, we offer valuable internships with certifications. Interns will gain hands-on experience and receive certificates from EduXel. Elevate your skills and boost your resume with our internship program. Dive into practical learning opportunities and enhance your professional portfolio. Join us and kickstart your career journey with EduXel internships.</p>
+            <div id="photo-container"></div>
+            <button type="APPLY" class="btn">APPLY</button>
+            <h1>SUMMER INTERSHIP PROGRAM</h1>
+                <h2>Internship Details:</h2>
+                <p>Location : Remote (Online)</p>
+                <p>Working Hours : Flexible</p>
+                <ul>
+
+                <h3>Requirements :</h3>
+                <li> Open to all streams.</li>
+                <li> Experienced, Freshers and college students can apply.</li>
+                <li>Proficiency in English.</li>
+                <li> Ability to work with a cross-functional team.</li>
+                </ul>
+                <h3>Certificates and Documents: </h3>
+                <p>Through out internship, you will be awarded the following certificates:</p>
+                <ul>
+                
+                <li> Internship Offer Letter</li>
+                <li> Internship Completion Certificate</li>
+                 <li>Project Completion Certificate</li>
+                <li> Letter of Recommendation</li>
+                 <li>Skill Test Certification</li>
+                 </ul>
+                
+               ,<h3> Exclusive perks : </h3>
+               <ul>
+                 <li>Placement Support:</li> 
+                <p>Top performing candidates profile will be selected for Part time & Full time opportunities.</p>
+                
+                <li>  Resume Building Assistance: </li>
+                <p>Enhance your resume for professional growth.</p>
+                
+                <li>  Industry Connect: </li>
+               <p> Build valuable connections within the industry.</p>
+                
+                <li> Access to Nexus Hackathon 2024: </li>
+               <p> Participate in our exclusive hackathon event.</P>
+            </ul>
+            <img src="C:\Users\thumb\Downloads\1711891858914.jfif" alt="internship logo" width="600" height="300"  
+            
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+                <button type="call">CALL</button>
+            </form>
+            <address>
+                <p>Address: 123 Nexus Street, Tech City, TC 12345</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: nexussoftware@gmail.com</p>
+            </address>
+        </section>
+    </main>   
+</body>
+</html>
